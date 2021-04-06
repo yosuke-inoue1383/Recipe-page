@@ -1,0 +1,50 @@
+@charset "UTF-8"
+
+body{
+}
+
+.box{
+  margin: 0 100px 0 100px;
+  position: relative;
+}
+
+/****headerタグ****/
+header{
+
+}
+
+.headText{
+  width: 60%;
+}
+/******************/
+
+
+
+/****mainタグ****/
+.content{
+  display: flex;
+}
+
+main{
+  width: 75%;
+}
+
+aside{
+  width: 25%;
+  border: solid rgba(0,0,0,0.1);
+  border-radius: 16px;
+  border: opacity;
+
+}
+
+/***************/
+
+footer{
+  width: 100%;
+  bottom: 1px;
+  text-align: center;
+  font-size: 1vw;
+  opacity: 0.5;
+
+  position: absolute;
+}
